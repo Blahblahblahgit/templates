@@ -15,8 +15,8 @@ description: Meilisearch Cloud is a next-generation, open-source search engine
   interface in just a few lines of code.
 instructions: null
 changeLog:
-  - date: 2022-10-31
-    description: first release
+  - date: 2024-04-14
+    description: second release
 links:
   - label: Website
     url: https://meilisearch.com/
@@ -48,7 +48,7 @@ schema:
     appServiceImage:
       type: string
       title: App Service Image
-      default: getmeili/meilisearch:v0.30
+      default: getmeili/meilisearch:v1.7.6
     dataVolumeName:
       type: string
       title: Meilisearch Database Volume Name
